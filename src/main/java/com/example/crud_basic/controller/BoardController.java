@@ -16,4 +16,9 @@ public class BoardController {
     public BoardResponseDto getBoard(@PathVariable Long boardId) {
         return boardService.getBoard(boardId);
     }
+
+    /*
+    서버 올리시고 아래 url 에서 DB 값들도 한 번 확인해보세요~!
+     http://localhost:8080/h2-console
+     */
 }
