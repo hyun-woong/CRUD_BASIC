@@ -18,6 +18,9 @@ public class BoardController {
     }
 
     /*
+    포스트맨에 url 양식으로 요청을 하시면 됩니다~!
+    [GET] http://localhost:8080/getList/1
+
     서버 올리시고 아래 url 에서 DB 값들도 한 번 확인해보세요~!
      http://localhost:8080/h2-console
      */
